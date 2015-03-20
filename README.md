@@ -1,5 +1,4 @@
-mplementation
-implementation of tree command.
+Implementation of tree command.
 
 ```bash
 $ bash test_tree.sh <foldername/path>
