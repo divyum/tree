@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [ "$1" == "-h" ]; then
+  echo "Usage: `basename $0` <directory_path>"
+  echo
+  echo "  -d : display only directories"
+  echo "  -f : display full path of the files and directories"
+  exit 0
+fi
+
 folder_recurse(){
 cd "$1"
 #echo "$1 $arg2"
